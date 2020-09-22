@@ -15,8 +15,8 @@
 	margin: 0; 
 }
 
-@media screena and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .element {
-        margin-left: 19px;
+        margin-left: 11px;
     }
 }
