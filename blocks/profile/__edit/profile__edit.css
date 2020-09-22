@@ -1,0 +1,20 @@
+.profile__edit {
+    width: 24px;
+    height: 24px;
+    margin-top: 48px;
+    margin-left: 28px;
+    background-image: url(../../../images/profile__edit.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 320px) {
+    .profile__edit {
+        width: 18px;
+        height: 18px;
+        margin-left: 12px;
+        margin-top: 36px;
+    }
+}
