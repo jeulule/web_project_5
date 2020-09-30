@@ -1,6 +1,5 @@
-// console.log("welcome to the hotel california")
 let modal = document.querySelector(".modal");
-let modalClose = document.querySelector('.modal__btn');
+let modalClose = document.querySelector('.modal__close');
 let profileAdd = document.querySelector('.profile__edit');
 
 let modalSubmit = document.querySelector(".modal__submit"); 
@@ -8,24 +7,19 @@ let modalSubmit = document.querySelector(".modal__submit");
 
 let modalForm = document.querySelector('.modal__form');
 
-const nameInput = document.querySelector('#modalName');
-const jobInput = document.querySelector('#modalJob');
+let nameInput = document.querySelector('.modal__input_name');
+let jobInput = document.querySelector('.modal__input_job');
 
-const profileTitle = document.querySelector('.profile__title');
-const profileSubtitle = document.querySelector('.profile__subtitle');
-
-function modalToggle() {
-    // console.log("open")
-    modal.classList.toggle("modal__open")
-}
+let profileTitle = document.querySelector('.profile__title');
+let profileSubtitle = document.querySelector('.profile__subtitle');
 
 function handleForm(e) {
     e.preventDefault();
 
+    modal.classList.toggle("modal_open")
+
     profileTitle.textContent = nameInput.value;
     profileSubtitle.textContent = jobInput.value;
-
-    modalToggle();
 }
 
 modalForm.addEventListener("submit", handleForm);
