@@ -2,7 +2,6 @@
 @import url(./__text/element__text.css);
 @import url(./__heart/element__heart.css);
 @import url(./__name/element__name.css);
-@import url(./__name/_ellipse/element__name_ellipse.css);
 
 .element {
     width: 282px;

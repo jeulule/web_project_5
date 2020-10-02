@@ -1,4 +1,4 @@
-.modal__btn {
+.modal__close {
   background-image: url("../../../images/close.png");
   background-color: transparent;
   border: none;
@@ -6,13 +6,18 @@
   width: 40.7px;
   height: 40.7px;
   position: absolute;
-  top: 110px;
-  left: 885px;
+  top: 170px;
+  left: 930px;
   border-radius: 50%;
 }
 
+.modal__close:hover {
+  filter: opacity(60%);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 320px) {
-  .modal__btn {
+  .modal__close {
       width: 20px;
       height: 20px;
       left: 270px;

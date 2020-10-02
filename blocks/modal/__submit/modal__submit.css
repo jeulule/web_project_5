@@ -10,6 +10,11 @@
   border-radius: 2px;
 }
 
+.modal__submit:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 @media screen and (max-width: 320px) {
     .modal__submit {
         width: 200px;

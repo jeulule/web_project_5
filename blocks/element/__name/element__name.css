@@ -5,6 +5,8 @@
     font-size: 24px;
     margin-top: 25px;
     font-style: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* .element__name:nth-child(5th) {

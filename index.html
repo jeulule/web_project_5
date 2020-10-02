@@ -20,7 +20,7 @@
                     <div class="profile__info">
                         <div class="profile__info-edit">
                             <h1 class="profile__title">Jacques Cousteau</h1>
-                            <button class="profile__edit"></button>
+                            <button type="button" class="profile__edit"></button>
                         </div>
                         <p class="profile__subtitle">Explorer</p>
                     </div>
@@ -81,16 +81,16 @@
                 </p>
             </footer>
 
-            <div class="modal">
+            <div class="modal ">
                 <div class="modal__container">
                     <button type="button" class="modal__close"></button>
-                    <div class="modal__form">
+                    <form name="form" method="get" class="modal__form">
                         <h3 class="modal__title">Edit Profile</h3>
-                        <input type="text" 
-                        class="modal__input modal__input_name" placeholder="Jacques Cousteau" />
-                        <input type="text" class="modal__input modal__input_job" placeholder="Explorer"/>
+                        <input type="text" name="Name"
+                        class="modal__input input_name" placeholder="Name" />
+                        <input type="text" name="About" class="modal__input input_job" placeholder="About me"/>
                         <button type="submit" class="modal__submit">Save</button>
-                    </div>
+                    </form>
                 </div>    
             </div>
         </div>

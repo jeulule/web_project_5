@@ -10,10 +10,15 @@
     border: 1px solid white;
 }
 
-@media screen and (max-width: 320px) {
+.profile__add:hover {
+    filter: opacity(60%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 340px) {
     .profile__add {
-        margin-top: 30px;
-        margin-left: 0;
+        margin-bottom: 36px;
+        margin-left: 29px;
         width: 282px;
     }
 }

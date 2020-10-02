@@ -10,7 +10,12 @@
     border: 1px solid white;
 }
 
-@media screen and (max-width: 320px) {
+.profile__edit:hover {
+    filter: opacity(60%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 340px) {
     .profile__edit {
         width: 18px;
         height: 18px;
