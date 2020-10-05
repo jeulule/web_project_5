@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 900px) {
     .profile__add {
         margin-bottom: 36px;
         margin-left: 29px;

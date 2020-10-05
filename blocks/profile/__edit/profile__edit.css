@@ -15,7 +15,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 900px) {
     .profile__edit {
         width: 18px;
         height: 18px;

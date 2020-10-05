@@ -15,7 +15,7 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 900px) {
     .modal__submit {
         width: 200px;
     }
