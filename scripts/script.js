@@ -17,6 +17,7 @@ function handleForm(e) {
     
     profileTitle.textContent = nameInput.value;
     profileSubtitle.textContent = jobInput.value;
+
     closeModal(e);
 }
 
@@ -24,15 +25,18 @@ function openModal() {
     
     nameInput.value = profileTitle.textContent;
     jobInput.value = profileSubtitle.textContent;
-    modal.classList.add("modal_open")
+    if(modal.classList.contains("modal__none")){
+    modal.classList.remove("modal__none");
+    }
+    modal.classList.add("modal__open");
 }
 
 function closeModal() {
 
     if(modal.classList.contains("modal__open")) {
-        modal.classList.remove("modal_open")
+        modal.classList.remove("modal__open")
     }
-    modal.classList.add("modal_close")
+    modal.classList.add("modal__none")
 }
 
 modalForm.addEventListener("submit", handleForm);

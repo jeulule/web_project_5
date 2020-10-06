@@ -1,10 +1,14 @@
-/* @import url(./_open/modal_open.css); */
+
+@import url(./_open/modal_open.css);
 @import url(./__form/modal__form.css);
 @import url(./__container/modal__container.css);
 @import url(./__close/modal__close.css);
 @import url(./__input/modal__input.css);
 @import url(./__title/modal__title.css);
 @import url(./__submit/modal__submit.css);
+/* @import url(./__none/modal__none.css); */
+/* @import url(./__open/modal__open.css); */
+
 
 .modal {
   position: fixed;
