@@ -18,7 +18,7 @@ function handleForm(e) {
     profileTitle.textContent = nameInput.value;
     profileSubtitle.textContent = jobInput.value;
 
-    closeModal(e);
+    closeModal();
 }
 
 function openModal() {
