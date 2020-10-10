@@ -1,5 +1,5 @@
 
-@import url(./_open/modal_open.css);
+/* @import url(./_open/modal_open.css); */
 @import url(./__form/modal__form.css);
 @import url(./__container/modal__container.css);
 @import url(./__close/modal__close.css);
@@ -21,3 +21,9 @@
   height: 100%;
   display: none;
   } 
+
+  @media screen and (max-width: 900px) {
+    .modal {
+        top: 20px;
+    }
+  }

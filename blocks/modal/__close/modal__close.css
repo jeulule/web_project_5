@@ -6,8 +6,8 @@
   width: 40.7px;
   height: 40.7px;
   position: absolute;
-  top: -50px;
-  left: 450px;
+  top: -40px;
+  right: -40px;
   border-radius: 50%;
 }
 
@@ -18,9 +18,9 @@
 
 @media screen and (max-width: 900px) {
   .modal__close {
-      width: 20px;
-      height: 20px;
-      left: 270px;
-      top: 40px;
+      width: 26px;
+      height: 26px;
+      right: -2px;
+      top: -40px;
   }
 }

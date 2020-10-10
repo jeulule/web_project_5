@@ -9,3 +9,10 @@
   line-height: 29px;
   color: #000000;
 }
+
+@media screen and (max-width: 900px) {
+  .modal__title {
+      margin-left: 22px;
+      margin-bottom: 75px; 
+  }
+}

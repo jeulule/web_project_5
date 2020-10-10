@@ -4,8 +4,8 @@ let profileAdd = document.querySelector('.profile__edit');
 
 let modalForm = document.querySelector('.modal__form');
 
-let nameInput = document.querySelector('.modal__input_name');
-let jobInput = document.querySelector('.modal__input_job');
+let nameInput = document.querySelector('.modal__input_form-name');
+let jobInput = document.querySelector('.modal__input_form-job');
 
 let profileTitle = document.querySelector('.profile__title');
 let profileSubtitle = document.querySelector('.profile__subtitle');
@@ -21,25 +21,13 @@ function handleForm(e) {
     closeModal();
 }
 
-function openModal() {
-    
+function handleModal() {
     nameInput.value = profileTitle.textContent;
     jobInput.value = profileSubtitle.textContent;
-    if(modal.classList.contains("modal__none")){
-    modal.classList.remove("modal__none");
-    }
-    modal.classList.add("modal__open");
-}
-
-function closeModal() {
-
-    if(modal.classList.contains("modal__open")) {
-        modal.classList.remove("modal__open")
-    }
-    modal.classList.add("modal__none")
+    modal.classList.toggle("modal_open");
 }
 
 modalForm.addEventListener("submit", handleForm);
 
-profileAdd.addEventListener("click", openModal);
-modalClose.addEventListener("click", closeModal)
+profileAdd.addEventListener("click", handleModal);
+modalClose.addEventListener("click", handleModal)
