@@ -2,6 +2,7 @@
 @import url(./__text/element__text.css);
 @import url(./__heart/element__heart.css);
 @import url(./__name/element__name.css);
+@import url(./__delete/element__delete.css);
 
 .element {
     width: 282px;
@@ -11,7 +12,8 @@
     color: black;
     list-style: none;
 	padding: 0;
-	margin: 0; 
+    margin: 0; 
+    position: relative;
 }
 
 @media screen and (max-width: 900px) {
