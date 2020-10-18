@@ -6,6 +6,9 @@
 @import url(./__input/modal__input.css);
 @import url(./__title/modal__title.css);
 @import url(./__submit/modal__submit.css);
+@import url(./__img-name/modal__img-name.css);
+@import url(./__img-popup/modal__img-popup.css);
+@import url(./__close/_type/_popup/modal__close_type_popup.css);
 /* @import url(./__none/modal__none.css); */
 /* @import url(./__open/modal__open.css); */
 
